@@ -1,5 +1,5 @@
 # Migration Oracle to MSSQL
-Este e um exemplo de ETL utilizando inteligência artificial do chat-gpt, o script foi produzido com a liguagem Python, onde o diretório `source` contém os objetos de banco de dados de origem, o mesmo possuim objetos do tipo `tabelas`, `procedure` e `triggers`. E por meio da extração, transformação e carga, os códigos de criação dos objetos são convertidos automaticamente para um formato compativel com Microsoft SQL Server e gravados no diretório `destination`.
+Este é um exemplo de ETL utilizando inteligência artificial do chat-gpt, o script foi produzido com a linguagem Python, onde o diretório `source` contém os objetos de banco de dados de origem, o mesmo possui objetos do tipo `tabelas`, `procedure` e `triggers`. E por meio da extração, transformação e carga, os códigos de criação dos objetos são convertidos automaticamente para um formato compatível com Microsoft SQL Server e gravados no diretório `destination`.
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
@@ -11,29 +11,29 @@ Este e um exemplo de ETL utilizando inteligência artificial do chat-gpt, o scri
 ## Como rodar o projeto
 1. Baixe o repositório
     ```sh
-    $git clone git@github.com:rmartinsdesouza/migration-database-gpt.
+    git clone git@github.com:rmartinsdesouza/migration-database-gpt.
 
-    $cd migration-database-gpt/
+    cd migration-database-gpt/
     ```
 1. Abra no VSCode ou no editor de sua preferência
     ```sh
-    $code .
+    code .
     ```
 1. Cria um ambiente virtual
     ```sh
-    $python -m venv dio-etl-gpt
+    python -m venv dio-etl-gpt
 
-    $source dio-etl-gpt/Scripts/activate
+    source dio-etl-gpt/Scripts/activate
     ```
 1. Instale as dependência do projeto
     ```sh
-    $pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 1. Crie o arquivo `.env` seguindo o padrão do `.env.example` e adicione a key
     ```sh
-    $mv .env.example .env
+    mv .env.example .env
     ```
 1. Execute o projeto através do arquivo `main.py`    
     ```sh
-    $python main.py
+    python main.py
     ```
