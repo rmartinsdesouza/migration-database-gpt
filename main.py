@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import openai
 import nltk
-nltk.download('punkt')  # Certifique-se de ter o pacote punkt baixado
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from time import sleep
 
